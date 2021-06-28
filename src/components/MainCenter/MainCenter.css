@@ -1,0 +1,110 @@
+.MainCenter__weather{
+    position: absolute;
+    height: 208px;
+    width: 1190px;
+    margin: auto;
+    TOP: 350px;
+    left: 101px;
+}
+/* Sun */
+.MainCenter__weather__sun{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 425px;
+    top: 75px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+}
+/* ray on sun */
+.MainCenter__weather__sun__ray1{
+    position: absolute;
+    height: 32px;
+    width: 10px;
+    border-radius: 5px;
+    left: 453px;
+    top: 38px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-180deg);
+}
+.MainCenter__weather__sun__ray2{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 415px;
+    top: 54px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(135deg);
+}
+.MainCenter__weather__sun__ray3{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 398px;
+    top: 95px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(90deg);
+}
+.MainCenter__weather__sun__ray4{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 414px;
+    top: 131px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-135deg);
+}
+.MainCenter__weather__sun__ray5{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 453px;
+    top: 145px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-180deg);
+}
+.MainCenter__weather__sun__ray6{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 492px;
+    top: 131px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(135deg);
+}
+.MainCenter__weather__sun__ray7{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 506px;
+    top: 95px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(90deg);
+}
+.MainCenter__weather__sun__ray8{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 490px;
+    top: 55px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-135deg);
+}
+.MainCenter__weather__text{
+    font-size: 180px;
+    line-height: 216px;
+    color: #FFFFFF;
+    margin-left: 90px;
+}
+.MainCenter__weather__text__two{
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 30px;
+}

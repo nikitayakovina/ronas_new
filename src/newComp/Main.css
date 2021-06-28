@@ -1,0 +1,314 @@
+/* Body */
+.body{
+    /* position: relative; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #498CEC;
+    box-sizing: border-box;
+    height: 1024px;
+    width: 1366px;
+}
+/* Header */
+.header{
+    width: 100%;
+}
+/* Моё местоположение */
+.header__city__name{
+    /* font-weight: 400; */
+    position: absolute;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    top:75px;
+    left:99px;
+}
+.header__city__place{
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    top:144px;
+    left:101px;
+    display: flex;
+}
+.header__city__place__time{
+    margin-top: 175px;
+    position: absolute;
+    left: 100px;
+}
+.header__city__place__time p{
+    font-size: 30px;
+    line-height: 60px;
+    color: #FFFFFF;
+    display: flex;
+}
+.header__city__place__one{
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+.header__city__place__one:hover{
+    opacity: 1;
+    color: #FFFFFF;
+}
+.header__city__place__two img{
+    margin-left: 29px;
+}
+.header__city__place__three{
+    margin-left: 12px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+.header__city__place__three:hover{
+    opacity: 1;
+    color: #FFFFFF;
+}
+/* Degree */
+.header__city__deg{
+    position: absolute;
+    color: #FFFFFF;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 29px;
+    width: 77px;
+    left: 1214px;
+    top: 81px;
+}
+.header__city__deg__0{
+    font-family: 'PT Sans';
+    /* position: absolute; */
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    top:85px;
+    left:1197px;
+}
+.header__city__deg__C{
+    /* position: absolute; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    height: 29px;
+    width: 38.2490234375px;
+    left: 1214px;
+    top: 81px;
+    border-radius: 8px;
+    z-index: 1;
+}
+.header__city__deg__C a{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    top:4px;
+    left: 12px;
+}
+.header__city__deg__C a:hover{
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 2;
+}
+.header__city__deg__F{
+    /* position: absolute; */
+    mix-blend-mode: normal;
+}
+.header__city__deg__F a{
+    position: absolute;
+    top:3px;
+    left: 52px;
+    font-size: 18px;    
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.header__city__deg__F a:hover{
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* Форма для выбора города */
+.form__city{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 450px;
+    border-radius: 15px;
+    display: none;
+}
+.form__city__btn{
+    border: 1px solid gray;
+    margin-left: 5px;
+    background-color: whitesmoke;
+}
+.form__city__btn:hover{
+    background-color: #e0e0e0;
+}
+.form__city__input{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.form__city__close{
+    float: right;
+    right: 15px;
+    top: 15px;
+    position: absolute;
+}
+.form__city__close a:hover{
+    color:#000000;
+}
+.form__city h1{
+    margin-top: 45px;
+    opacity: 0.85;
+}
+.form__city #btn{
+    margin-left: 10px;
+}
+/* MainCenter */
+.MainCenter__weather{
+    position: absolute;
+    height: 208px;
+    width: 1190px;
+    margin: auto;
+    TOP: 350px;
+    left: 101px;
+}
+/* Sun */
+.MainCenter__weather__sun{
+    position: absolute;
+    /* height: 65px; */
+    /* width: 65px; */
+    left: 425px;
+    /* top: 75px; */
+    display: flex;
+    /* border-radius: 40px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%); */
+}
+/* ray on sun */
+.MainCenter__weather__sun__ray1{
+    position: absolute;
+    height: 32px;
+    width: 10px;
+    border-radius: 5px;
+    left: 453px;
+    top: 38px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-180deg);
+}
+.MainCenter__weather__sun__ray2{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 415px;
+    top: 54px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(135deg);
+}
+.MainCenter__weather__sun__ray3{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 398px;
+    top: 95px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(90deg);
+}
+.MainCenter__weather__sun__ray4{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 414px;
+    top: 131px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-135deg);
+}
+.MainCenter__weather__sun__ray5{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 453px;
+    top: 145px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-180deg);
+}
+.MainCenter__weather__sun__ray6{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 492px;
+    top: 131px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(135deg);
+}
+.MainCenter__weather__sun__ray7{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 506px;
+    top: 95px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(90deg);
+}
+.MainCenter__weather__sun__ray8{
+    position: absolute;
+    height: 31px;
+    width: 10px;
+    border-radius: 5px;
+    left: 490px;
+    top: 55px;
+    background: linear-gradient(180deg, #FFFCC9 0%, #FFF799 100%);
+    transform: rotate(-135deg);
+}
+.MainCenter__weather__text{
+    font-size: 180px;
+    line-height: 216px;
+    color: #FFFFFF;
+}
+.MainCenter__weather__text__two{
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+/* Footer */
+.footer{
+    position: absolute;
+    top:840px;
+    left: 101px;
+}
+.footer__param{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    float: left;
+}
+.footer_param__value{
+    font-size: 25px;
+    line-height: 30px; 
+    color: #FFFFFF;
+    float: left;
+    margin-top: 10px;
+}
+table{
+    display: inline-block;
+}
+.footer_param__value:nth-child(1){
+    margin-right: 127px;
+}
+.footer_param__value:nth-child(2){
+    margin-right: 159px;
+}
+.footer_param__value:nth-child(3){
+    margin-right:234px;
+}

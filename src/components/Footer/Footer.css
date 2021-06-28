@@ -1,0 +1,31 @@
+.footer{
+    position: absolute;
+    top:840px;
+    left: 101px;
+}
+.footer__param{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    float: left;
+}
+.footer_param__value{
+    font-size: 25px;
+    line-height: 30px; 
+    color: #FFFFFF;
+    float: left;
+    margin-top: 10px;
+}
+table{
+    display: inline-block;
+}
+.footer_param__value:nth-child(1){
+    margin-right: 127px;
+}
+.footer_param__value:nth-child(2){
+    margin-right: 159px;
+}
+.footer_param__value:nth-child(3){
+    margin-right:234px;
+}
